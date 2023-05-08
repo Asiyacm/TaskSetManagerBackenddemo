@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class EventController {
 
     @GetMapping("/event")
-    public String EventPage(){
+    public String EventPage() {
         return "Event";
     }
+
 }
